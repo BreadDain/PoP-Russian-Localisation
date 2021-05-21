@@ -1,0 +1,9 @@
+*
+!BepInEx
+!BepInEx/**
+!arialuni_sdf
+!doorstop_config.ini
+!winhttp.dll
+!README.md
+!rmtranslationandlaunch.bat
+!.gitignore

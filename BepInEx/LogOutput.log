@@ -10,21 +10,17 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 2 plugins to load
+[Info   :   BepInEx] 3 plugins to load
 [Info   :   BepInEx] Loading [XUnity Auto Translator 4.20.0]
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2019.4.16f1] game.
 [Info   :   BepInEx] Loading [XUnity Resource Redirector 1.2.0]
+[Info   :   BepInEx] Loading [Runtime Unity Editor 2.5]
 [Message:   BepInEx] Chainloader startup complete
 [Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+[Warning:Runtime Unity Editor] Vectrosity.dll is not available, drawing gizmos will be disabled
 [Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
-[Info   :XUnity.AutoTranslator] Toggling translations of 22 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 21 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 661 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 491 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 491 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 491 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 513 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 491 objects.
+[Warning:XUnity.AutoTranslator] Attempted to exceed maximum allowed levels of text parsing recursion!
+[Warning:XUnity.AutoTranslator] Attempted to exceed maximum allowed levels of text parsing recursion!
 [Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
 System.Threading.ThreadAbortException
   at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)

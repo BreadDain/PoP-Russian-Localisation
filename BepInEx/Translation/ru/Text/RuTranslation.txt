@@ -203,6 +203,7 @@ seduction=соблазн
 magic=магич
 strength=сила
 dex=ловк
+Lust=Похоть
 Money=Деньги
 Egg=Яйцо
 Crystals=Кристаллы

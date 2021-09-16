@@ -7,3 +7,6 @@
 !README.md
 !rmtranslationandlaunch.bat
 !.gitignore
+BepInEx/plugins/RuntimeUnityEditor
+BepInEx/config/RuntimeUnityEditor.Autostart.cs
+BepInEx/config/RuntimeUnityEditor.cfg

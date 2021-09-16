@@ -19,6 +19,7 @@ sr:"^(?<time_i>\d+:\d+)(?<nonword3_i>[\W]*)(?<h>h)$"=${time_i}${nonword3_i}ч
 sr:"^(?<before>[\s\S]{1,8})(?<punct_i>[-/:]+)(?<numafter_i>\d*)(?<letterafter_i>[A-Z]*)(?<rest>.*)$"=${before}${punct_i}${numafter_i}${letterafter_i}${rest}
 
 
+
 You approach the brothel entrance, blocked by a giant and a succubus.\nThe succubus waves you over =Переведено
 "Hey, you're =Переведено
 , right. You live on the island nearby? Flora wants to see you."=Переведено

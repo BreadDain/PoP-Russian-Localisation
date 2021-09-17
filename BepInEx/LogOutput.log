@@ -20,7 +20,14 @@
 [Warning:Runtime Unity Editor] Vectrosity.dll is not available, drawing gizmos will be disabled
 [Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
 [Warning:XUnity.AutoTranslator] Attempted to exceed maximum allowed levels of text parsing recursion!
-[Warning:XUnity.AutoTranslator] Attempted to exceed maximum allowed levels of text parsing recursion!
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
+System.Exception: Found no valid translations in beam!
+   в DeepLTranslate.ExtProtocol.ExtDeepLTranslate.ExtractTranslation(String data, List`1 untranslatedTextInfos, ITranslationContext context)
+   в DeepLTranslate.ExtProtocol.ExtDeepLTranslate.<Translate>d__32.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
+[Error  :XUnity.AutoTranslator] Failed: 'fffffffffffffffffffffffffffffooooooooooooooooooooooooo'
 [Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
 System.Threading.ThreadAbortException
   at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)

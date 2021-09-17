@@ -1,3 +1,7 @@
+#Автор перевода BreadDain, автор игры Syvaron.
+#Поддержать проект перевода: https://www.patreon.com/BreadDain
+#Поддержать игру и её чудесного автора Syvaron: https://www.patreon.com/Syvaron
+
 sr:"^(?<phrase1>.*)(?<largews_i>[\s]{2,20})(?<phrase2>.*)$"=${phrase1}${largews_i}${phrase2}
 sr:"^(?<before>[^(<>]*?)(?<nonword_i>[\W]*)(?<bropen_i>[(])(?<brcon>[^)]*)(?<brclose_i>[)])(?<after>[^(]*)$"=${before}${nonword_i}${bropen_i}${brcon}${brclose_i}${after}
 sr:"^(?<before>[^(<>]*?)(?<nonword_i>[\W]*)(?<bropen_i>[(])(?<brcon>[^)]*)(?<brclose_i>[)])(?<after>[^(]*)(?<rest>.*)$"=${before}${nonword_i}${bropen_i}${brcon}${brclose_i}${after}${rest}

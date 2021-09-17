@@ -1,0 +1,6 @@
+Party/Home=Группа/Дом
+Sex-Training=Секс-тренировка
+Upgrades/Research=Улучшения/Исследования
+Mark=Метка
+Stam.=Внсл.
+Br.Val.=Br.Val.

@@ -1,38 +1,21 @@
-[Message:   BepInEx] BepInEx 5.4.15.0 - PortalsOfPhereon (9/9/2021 2:16:00 PM)
+[Message:   BepInEx] BepInEx 5.4.18.0 - PortalsOfPhereon (12/10/2021 9:56:11 PM)
 [Info   :   BepInEx] Running under Unity v2019.4.16.14703470
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
-[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.15.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.18.0]
 [Info   :   BepInEx] 1 patcher plugin loaded
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
 [Info   :   BepInEx] 3 plugins to load
-[Info   :   BepInEx] Loading [XUnity Auto Translator 4.20.0]
+[Info   :   BepInEx] Loading [XUnity Auto Translator 4.21.0]
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2019.4.16f1] game.
-[Info   :   BepInEx] Loading [XUnity Resource Redirector 1.2.0]
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 1.2.1]
 [Info   :   BepInEx] Loading [Runtime Unity Editor 2.5]
 [Message:   BepInEx] Chainloader startup complete
 [Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
 [Warning:Runtime Unity Editor] Vectrosity.dll is not available, drawing gizmos will be disabled
 [Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
-[Warning:XUnity.AutoTranslator] Attempted to exceed maximum allowed levels of text parsing recursion!
-[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
-System.Exception: Found no valid translations in beam!
-   в DeepLTranslate.ExtProtocol.ExtDeepLTranslate.ExtractTranslation(String data, List`1 untranslatedTextInfos, ITranslationContext context)
-   в DeepLTranslate.ExtProtocol.ExtDeepLTranslate.<Translate>d__32.MoveNext()
---- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
-   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   в Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
-[Error  :XUnity.AutoTranslator] Failed: 'fffffffffffffffffffffffffffffooooooooooooooooooooooooo'
-[Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
-System.Threading.ThreadAbortException
-  at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)
-  at System.IO.MonoIO.Read (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, System.IO.MonoIOError& error) [0x00010] in <9577ac7a62ef43179789031239ba8798>:0 
-  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x00002] in <9577ac7a62ef43179789031239ba8798>:0 
-  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <9577ac7a62ef43179789031239ba8798>:0 
-  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <9577ac7a62ef43179789031239ba8798>:0 
-  at System.IO.StreamReader.ReadBuffer () [0x000b3]

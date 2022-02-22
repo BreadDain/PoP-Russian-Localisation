@@ -11,3 +11,5 @@
 BepInEx/plugins/RuntimeUnityEditor
 BepInEx/config/RuntimeUnityEditor.Autostart.cs
 BepInEx/config/RuntimeUnityEditor.cfg
+BepInEx/LogOutput.log
+BepInEx/cache/harmony_interop_cache.dat

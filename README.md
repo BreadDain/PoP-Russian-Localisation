@@ -3,8 +3,8 @@
 
 На текущий момент и в ближайшем будущем плагин будет работать в режиме автоперевода. Буду постепенно менять конфигурацию и добавлять перевод + менять размер элементов для самых важных интерфейсов.
 <br/>Версия игры 0.18.0.1 
-<br/>Версия инжектора BepInEx 5.4.18.0 x64 https://github.com/BepInEx/BepInEx
-<br/>Версия XUnity.AutoTranslator 4.21.0 https://github.com/bbepis/XUnity.AutoTranslator
+<br/>Версия инжектора BepInEx 5.4.19.0 x32 https://github.com/BepInEx/BepInEx
+<br/>Версия XUnity.AutoTranslator 5.0.0 https://github.com/bbepis/XUnity.AutoTranslator
 
 Установка: скопировать файлы в корень папки с игрой.
 <br/>В случае если автоперевод совсем безобразный - Alt+T для переключения на английский.
